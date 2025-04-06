@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background: #1D1D1D;
+    margin: 0px;
+    border: 0px;
+    font-family: Montserrat;
+    overflow-x: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #606060;
+    border-radius: 3px;
+    width: 2px;
+}
+
+::-webkit-scrollbar{
+    width: 6px;
+}
+
+/*Top Header*/
+
+.top_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-top: 7px;
+    background-color: #0A0A0A;
+    flex-flow: wrap;
+}
+
+.name{
+    color: #FFFFFFD9;
+    font-size: 20px;
+    letter-spacing: -1.5px;
+}
+
+h2.name{
+    font-weight: 400;
+}
+
+span.name{
+    color: #1f4d2c;
+    padding-left: 6px;
+    font-weight: 700;
+}
+
+a.links{
+    text-decoration: none;
+    color: #FFFFFFD9;
+    padding: 11px;
+    font-weight: 300;
+    transition: all 0.2s ease;
+}
+
+a.links:hover{
+    cursor: pointer;
+    color: #1f4d2c;
+    font-weight: bold;
+    letter-spacing: -0.9px;
+}
+
+/* Home */
+
+section{
+    background-color: #0A0A0A;
+    border-top: 2px solid #1D1D1D;
+}
+
+@media (max-width: 700px) {
+    .home{
+        flex-direction: column; /* Botões um sobre o outro */
+        align-items: center; /* Centraliza verticalmente */
+        gap: 10px; /* Espaço menor entre botões */
+        grid-template-columns: 1fr;
+        }
+    a.links{
+        padding: 1.5px;
+        letter-spacing: -1.2px;
+        font-weight: 400;
+    }
+    img.photo{
+        width: 270px;
+        height: auto;
+        border-radius: 50%;
+        order: -1;
+        margin-top: -50px;
+    }
+    .home_name, .student{
+        text-align: center;
+    }
+    .courses{
+        text-align: center;
+    }
+    .cv_button, .contac{
+        width: 120px;
+        height: 60px;
+        font-size: 20px; 
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+    }
+    .contacts{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin: 15px;
+        margin-bottom: 20px;
+    }
+    .img_port{
+        width: auto;
+        height: 210px;
+    }
+    .links_top{
+        margin-bottom: 20px;
+    }
+    h2.hmflix{
+        max-height: 900px;
+        width: auto;
+        height: auto;
+    }
+    button.contact_button{
+        width: 300px;
+        height: 80px;
+    }
+}
+
+.home{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.container_name{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+h1.home_name{
+    color: #1f4d2c;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: -2px;
+}
+
+span.i{
+    color: #DADADA;
+    font-weight: 500;
+}
+
+.student{
+    color: #DADADA;
+    font-weight: 300;
+}
+
+div.buttons{
+    display: flex;
+    gap: 10px;
+    
+    justify-content: center;
+}
+
+button{
+    background-color: #151515;
+    color: #1f4d2c;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 1.9rem;
+    transition: all 0.4s ease;
+}
+
+button.cv_button:hover{
+    color: #151515;
+    background-color: #DADADA;
+    cursor: pointer;
+}
+
+button.contac:hover{
+    color: #151515;
+    background-color: #DADADA;
+    cursor: pointer;
+}
+
+.photo{
+    width: 350px;
+    height: auto;
+    order: 2;
+    border-radius: 50%;
+}
+
+/* Sobre */
+
+.about{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.container_about{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: -30px;
+}
+
+.about_me{
+    color: #DADADA;
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.4;
+    max-width: 500px;
+}
+
+/*Sobre*/
+
+.courses{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.sobre{
+    color:#1f4d2c;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+h1.titles{
+    color: #1f4d2c;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+/*Cursos*/
+
+.container_courses{
+    padding-top: -50px;
+}
+
+.a_cursos{
+    padding-bottom: 50px;
+}
+
+a.cursos{
+    color: #DADADA;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 650;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.4s ease;
+    letter-spacing: -0.8px;
+}
+
+a.cursos:hover{
+    transform: scale(1.08);
+    color: #1f4d2c;
+}
+
+/*Projeto*/
+
+h1.hmflix{
+    color: #DADADA;
+}
+
+h2.hmflix{
+    color: #d8d0d0;
+    font-weight: 300;
+    font-size: 20px;
+    max-width: 500px;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+
+.portfolio{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_port{
+    transition: all 0.3s;
+    margin: 15px;
+    border-radius: 5%;
+}
+
+.img_port:hover{
+    transform: scale(1.04);
+}
+
+/* Contatos */
+
+.contact{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.contact_button{
+    background-color: #151515;
+    width: 150px;
+    height: 60px;
+    border-radius: 1.9rem;
+    transition: all 0.4s ease;
+    display: flex;
+    justify-content: space-between;
+}
+
+button.contact_button{
+    text-align: center;
+}
+
+.contact_button:hover{
+    transform: scale(1.07);
+    background-color: #1f4d2c;
+    cursor: pointer;
+}
+
+.contact_button svg {
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.icones {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
