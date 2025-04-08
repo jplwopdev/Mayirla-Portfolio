@@ -109,11 +109,9 @@ section{
         justify-content: center;
     }
     .contacts{
-        display: flex;
         flex-direction: column;
-        gap: 50px;
-        margin: 15px;
-        margin-bottom: 20px;
+        padding-bottom: 20px;
+        justify-content: center;
     }
     .img_port{
         width: auto;
@@ -128,11 +126,20 @@ section{
         height: auto;
     }
     button.contact_button{
-        width: 300px;
-        height: 80px;
+        width: 200px;
+
     }
-    .name_contact{
-        padding: 50px;
+    a.name_contact{
+        text-align: center;
+        margin-right: 40px;
+    }
+    a.instagram_contact{
+        text-align: center;
+        margin-right: 29px;
+    }
+    a.git_contact{
+        text-align: center;
+        margin-right: 45px;
     }
 }
 
@@ -347,24 +354,38 @@ button.contact_button{
     cursor: pointer;
 }
 
-
-
 .icones {
     display: flex;
     align-items: center;
-    padding-left: 6px;
+    padding: 4px;
 }
 
-.name_contact{
+a.name_contact{
     color: #DADADA;
-    padding-left: 9px;
-    font-size: 13px;
+    display: flex;
+    font-size: 12px;
     font-weight: 900;
-    margin: 0;
     text-decoration: none;
+    align-items: center;
+    padding-right: 22px;
 }
 
-.name_contact{
-    gap: 50px;
+a.instagram_contact{
+    color: #DADADA;
+    display: flex;
+    font-size: 12px;
+    font-weight: 900;
+    text-decoration: none;
+    align-items: center;
+    padding-right: 10px;
 }
 
+a.git_contact{
+    color: #DADADA;
+    display: flex;
+    font-size: 12px;
+    font-weight: 900;
+    text-decoration: none;
+    align-items: center;
+    padding-right: 28px;
+}
