@@ -5,7 +5,6 @@ body{
     margin: 0px;
     border: 0px;
     font-family: Montserrat;
-    overflow-x: hidden;
 }
 
 html{
@@ -131,6 +130,9 @@ section{
     button.contact_button{
         width: 300px;
         height: 80px;
+    }
+    .name_contact{
+        padding: 50px;
     }
 }
 
@@ -345,22 +347,24 @@ button.contact_button{
     cursor: pointer;
 }
 
-.contact_button svg {
-    display: block;
-    justify-content: center;
-    text-align: center;
-}
+
 
 .icones {
     display: flex;
     align-items: center;
-    padding-left: 5px;
+    padding-left: 6px;
 }
 
-.name_contact{
+span.name_contact{
     color: #DADADA;
-    text-decoration: none;
     padding-left: 9px;
     font-size: 13px;
     font-weight: 900;
+    margin: 0;
+    text-decoration: none;
 }
+
+.name_contact{
+    gap: 50px;
+}
+
