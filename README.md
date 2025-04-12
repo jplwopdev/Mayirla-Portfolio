@@ -1,5 +1,5 @@
 # 🌟 Portfólio Mayirla 
-![Mayirla-portfolio](HomePage.jpg)
+![Mayirla-portfolio](/img/HomePage.jpg)
 
 **Link do site:** [https://mayirlaportfolio.vercel.app/](https://mayirlaportfolio.vercel.app/)
 
