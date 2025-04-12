@@ -1,5 +1,4 @@
 # 🌟 Portfólio Mayirla 
-![Mayirla-portfolio](HomePage.png)
 
 **Link do site:** [https://mayirlaportfolio.vercel.app/](https://mayirlaportfolio.vercel.app/)
 
@@ -19,3 +18,6 @@ Um portfólio elegante e responsivo desenvolvido para apresentar o trabalho prof
 - Galeria de projetos
 - Efeitos visuais interativos
 - Navegação intuitiva
+
+## 📸 Preview
+![Mayirla-portfolio](HomePage.png)
