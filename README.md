@@ -19,5 +19,10 @@ Um portfólio elegante e responsivo desenvolvido para apresentar o trabalho prof
 - Efeitos visuais interativos
 - Navegação intuitiva
 
-## 📸 Preview
+## 📸 Preview - Pc
 ![Mayirla-portfolio](HomePage.png)
+
+## 📸 Preview - Mobile
+<div>
+  <img src="Homepage-Mobile.jpg" width="280" alt="Mayirla-portfolio">
+</div>
